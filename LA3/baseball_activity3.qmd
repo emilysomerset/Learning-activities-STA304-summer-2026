@@ -30,8 +30,7 @@ data(baseball)
 
 Before any analysis, always take a look at the data first.
 
-`head(data)` shows the first 6 rows by default (can change, `head(data, 10)` shows 10).
-`dim(data)` tells you the number of rows and columns.
+`head(data)` shows the first 6 rows by default (can change, `head(data, 10)` shows 10). `dim(data)` tells you the number of rows and columns.
 
 Try them both below. The data name is `baseball` and it is in a format we call a "data frame".
 
@@ -92,7 +91,10 @@ Take an SRS of 150 players from the baseball data frame without replacement. Sav
 
 ```
 
-In words, describe the process of selecting an SRS here:
+In words, describe the process of selecting an SRS below:
+
+
+
 
 
 
@@ -145,6 +147,13 @@ Describe the shape of the distribution of `salary`. Describe the shape of the di
 
 
 
+
+
+
+
+
+
+
 ## Exercise 4:
 
 Estimate the population mean of `logsal` and give a 95% CI, using your SRS. Do this manually using the formulas from lecture/the textbook — do not rely on pre-built R functions except for `mean()`, `sd()`, `qnorm(0.975)`, or `qt(0.975, df = n - 1)`, which give you the 97.5th quantile from a standard normal distribution and a t-distribution with $n - 1$ degrees of freedom, respectively.
@@ -161,6 +170,14 @@ Estimate the population mean of `logsal` and give a 95% CI, using your SRS. Do t
 ```
 
 Give the estimate and the 95% CI and interpret them here:
+
+
+
+
+
+
+
+
 
 
 
@@ -196,9 +213,15 @@ Give the estimate and the 95% CI and interpret them here:
 
 
 
+
+
+
+
+
+
 ## Exercise 6:
 
-Since you have the full dataset for the population, you can find the true mean and proportion for the population. 
+Since you have the full dataset for the population, you can find the true mean and proportion for the population.
 
 ```{r}
 # Include your code here
