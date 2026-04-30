@@ -154,7 +154,7 @@ Describe the shape of the distribution of `salary`. Describe the shape of the di
 
 
 
-## Exercise 4:
+## Exercise 4: Inference for the population mean
 
 Estimate the population mean of `logsal` and give a 95% CI, using your SRS. Do this manually using the formulas from lecture/the textbook — do not rely on pre-built R functions except for `mean()`, `sd()`, `qnorm(0.975)`, or `qt(0.975, df = n - 1)`, which give you the 97.5th quantile from a standard normal distribution and a t-distribution with $n - 1$ degrees of freedom, respectively.
 
@@ -184,7 +184,7 @@ Give the estimate and the 95% CI and interpret them here:
 
 
 
-## Exercise 5:
+## Exercise 5: Inference for the population proportion
 
 `table()` uses cross-classifying factors to build a contingency table of the counts at each combination of factor levels.
 
@@ -219,7 +219,7 @@ Give the estimate and the 95% CI and interpret them here:
 
 
 
-## Exercise 6:
+## Exercise 6: Conclusions
 
 Since you have the full dataset for the population, you can find the true mean and proportion for the population.
 
