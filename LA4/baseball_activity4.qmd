@@ -1,0 +1,128 @@
+---
+title: "Baseball data: Learning Activity 4"
+format: pdf
+editor: visual
+---
+
+## Background
+
+This activity uses the **baseball** dataset (available in the *SDAResources* package). The dataset contains statistics on **797 baseball players** from the rosters of all major league teams in November 2004 (Forman, 2004).
+
+You will treat this file as a **population** and draw samples from it using stratified random sampling.
+
+## Getting Started
+
+Loading the dataset and the R packages. Visit the solutions for learning activity 3 on R introductions. No new R functions will be needed for this activity. 
+
+```{r,message=FALSE}
+#| label: setup
+# Uncomment the install.packages("SDAResources") line to install the package. 
+# Comment it back after you install the package :) 
+# install.packages("SDAResources") 
+library(SDAResources)
+library(dplyr)
+
+data(baseball)         
+
+```
+
+## Exercise 1: Stratified random sample
+
+Take a stratified random sample of 150 players from the population, using proportional allocation with the different teams as strata. 
+
+```{r}
+#Include your code here
+
+```
+
+Describe how you selected the sample here: 
+
+
+
+
+
+
+
+## Exercise 2: Inference for the population proportion
+
+Estimate the population proportion of players who are pitchers and give a 95\% confidence interval, using your stratified sample. Do this manually using the formulas from lecture/the textbook — do not rely on pre-built R functions except for `mean()`, `sd()`, `qnorm(0.975)`, or `qt(0.975, df = n - 1)`, which give you the 97.5th quantile from a standard normal distribution and a t-distribution with $n - 1$ degrees of freedom, respectively.
+
+```{r}
+## Include your code here
+
+
+
+
+```
+
+Give the estimate and the 95% CI and interpret them here:
+
+
+
+
+
+
+
+## Exercise 3: Inference for the population mean
+
+Estimate the population mean of `logsal` and give a 95% CI, using your stratified sample. Recall from activity 3 that `logsal` is the logarithm of `salary`. 
+
+Do this manually using the formulas from lecture/the textbook — do not rely on pre-built R functions except for `mean()`, `sd()`, `qnorm(0.975)`, or `qt(0.975, df = n - 1)`, which give you the 97.5th quantile from a standard normal distribution and a t-distribution with $n - 1$ degrees of freedom, respectively.
+
+```{r}
+# Include your code here
+
+
+
+
+
+
+
+```
+
+Give the estimate and the 95% CI and interpret them here:
+
+
+
+
+
+
+
+## Exercise 4
+How do your estimates compare with those of Learning activity 3?
+
+
+
+
+
+
+
+
+
+## Exercise 5
+Examine the sample variance in each stratum. Do you think optimal allocation would be worthwhile for this problem? 
+
+```{r}
+## Use this for code
+
+
+
+
+
+```
+
+
+
+
+
+## Exercise 6
+Using the sample variances from Exercise 5 to estimate the population stratum variances, determine the optimal allocation for a sample in which the cost is the same in each stratum and the total sample size is 150. How much does the optimal allocation differ from the proportional allocation? 
+
+
+
+
+
+
+
+
+

@@ -192,7 +192,7 @@ Give the estimate and the 95% CI and interpret them here:
 table(baseball$leagueid)
 ```
 
-Estimate the proportion of players who are pitchers, and give a 95%, using your SRS. Do this manually as well. Type `?baseball` in your console to learn more about the variables in the dataset and identify the relevant variable.
+Estimate the population proportion of players who are pitchers, and give a 95%, using your SRS. Do this manually as well. Type `?baseball` in your console to learn more about the variables in the dataset and identify the relevant variable.
 
 ```{r}
 # Include your code here
